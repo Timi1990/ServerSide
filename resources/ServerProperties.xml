@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Note to client: -->
+<!-- First field : port -->
+<!-- Second field : host -->
+<!-- Third field : MAX number of clients -->
+<!-- Fourth field :  MAX number of threads -->
+<!-- Fifth field : maze generator type: My maze generator/Simple maze generator -->
+<!-- Sixth field : searching algorithm: Astar/BFS  -->
+<java version="1.8.0_51" class="java.beans.XMLDecoder">
+ <object class="model.Properties" id="Properties0">
+  <void property="propertiesList">
+   <void method="add">
+    <string>8000</string>
+   </void>
+   <void method="add">
+    <string>127.0.0.1</string>
+   </void>
+   <void method="add">
+    <string>10</string>
+   </void>
+   <void method="add">
+    <string>20</string>
+   </void>
+   <void method="add">
+    <string>My maze generator</string>
+	</void>
+	<void method="add">
+    <string>Astar</string>
+	</void>
+  </void>
+ </object>
+</java>
